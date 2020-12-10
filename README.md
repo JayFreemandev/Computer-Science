@@ -12,7 +12,7 @@ The curriculum is based off of the [Teach Yourself Computer Science](https://tea
    Math for CS  
    Operating Systems  
    Computer Networking  
-   _Databases_ (in progression 2020-12-11)   
+   *Databases* (in progression 2020-12-11)   
    Languages and Compilers  
    Distributed Systems  
 Teach Yourself Computer Science is made up of recommended textbooks and MOOC video series per subject.  
