@@ -4,17 +4,17 @@ I am learning programming since September and no expereince, no college degree. 
 
 # Outline
 The curriculum is based off of the [Teach Yourself Computer Science](https://teachyourselfcs.com/) and covers the following subjects:
-Note: The goal is to spend 100 - 200 hours per subject.
+   Note: The goal is to spend 100 - 200 hours per subject.
 
- Programming 
- Computer Architecture
- Algorithms and Data Structures
- Math for CS
- Operating Systems
- Computer Networking
- Databases (in progression 2020-12-11) 
- Languages and Compilers
- Distributed Systems
+   Programming 
+   Computer Architecture
+   Algorithms and Data Structures
+   Math for CS
+   Operating Systems
+   Computer Networking
+   _Databases_ (in progression 2020-12-11) 
+   Languages and Compilers
+   Distributed Systems
 Teach Yourself Computer Science is made up of recommended textbooks and MOOC video series per subject.
 This curriculum was built by The Bradfield School of Computer Science, and is specially tailored to self-taught software engineers and bootcamp graduates like myself.
 
