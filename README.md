@@ -3,8 +3,8 @@
 I am learning programming since September and no expereince, no college degree. It will be my knowledge journey started from the bottom. Solid fundamental concepts about CS will lead me to the next level in my career. This is a traditional CS undergradute curriculm outlined below 
 
 # Outline
-The curriculum is based off of the [Teach Yourself Computer Science](https://teachyourselfcs.com/) and covers the following subjects:
-   Note: The goal is to spend 100 - 200 hours per subject.
+The curriculum is based off of the [Teach Yourself Computer Science](https://teachyourselfcs.com/) and covers the following subjects:  
+   Note: The goal is to spend 100 - 200 hours per subject.  
 
    Programming 
    Computer Architecture
