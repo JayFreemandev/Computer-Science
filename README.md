@@ -11,14 +11,17 @@
   - [운영체제](#운영체제)
   - [네트워크](#네트워크)
   - [데이터베이스](#데이터베이스)
-  - [컴파일러](#컴파일러)
-  - [분산시스템](#분산시스템)
+  - [컴파일러](#컴파일러) 
+  - [분산시스템]
+  - [컴파일러]
+  - [시스템디자인]
 
 ## 컴퓨터과학
 
 ### 알고리즘
 
-- [알고리즘](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X) - 로버트 세드윅
+- [알고리즘](https://www.amazon.com/gp/product/3030542556/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=3030542556&linkCode=as2&tag=algorist-20&linkId=b1ff842c5eae7652f4cd7eee168d1809) - 스티븐 스키에나
+- [강의](https://www3.cs.stonybrook.edu/~skiena/373/videos/) - Stanford's CS161
 
 ### 컴퓨터구조
 
@@ -42,4 +45,6 @@
 - [CS186](https://www.youtube.com/user/CS186Berkeley/videos) - Berkeley
 
 ### 컴파일러
-### 분산시스템
+
+------  
+시간이 남는다면 [Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/), [Compilers](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811?pldnSite=1), System Design
