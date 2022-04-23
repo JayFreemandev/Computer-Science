@@ -31,7 +31,7 @@
 - [인사이드 머신 | 그림으로 배우는 컴퓨터 아키텍처와 마이크로프로세서](https://book.naver.com/bookdb/book_detail.nhn?bid=2884659) - 존 스토크스
 - [강의](https://www.coursera.org/learn/build-a-computer) - 코세라, 시몬 스쵸켄
 
-### 운영체제(2022.04)
+### [운영체제(2022.04)](https://github.com/JayFreemandev/Computer-Science/tree/main/Operating%20Systems)
 ![OS](https://user-images.githubusercontent.com/72185011/164879276-0ddadd64-c45a-4706-b79d-caee82c94b61.jpg)
 ![OS강의](https://user-images.githubusercontent.com/72185011/164879136-c04bf22a-f2b9-45ae-a2ff-a4e1f9ee4f4a.PNG)
 - [실습과 그림으로 배우는 리눅스 구조 | 개발자가 알아야 하는 OS와 하드웨어의 기초](https://book.naver.com/bookdb/book_detail.nhn?bid=14524977) - 다케우치 사토루
