@@ -8,7 +8,7 @@
 - [컴퓨터과학](#컴퓨터과학)
   - [알고리즘](#알고리즘)
   - [컴퓨터구조](#컴퓨터구조)
-  - [운영체제](#운영체제)
+  - [운영체제](https://github.com/JayFreemandev/Computer-Science/tree/main/Operating%20Systems)
   - [네트워크](#네트워크)
   - [데이터베이스](#데이터베이스)
   - [컴파일러](#컴파일러) 
