@@ -47,3 +47,10 @@ SFJ보면 A,B,C 5초씩 1초마다 타임슬라이스 해버리는 라운드로�
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cadf582-51f9-4941-9049-525b634f465f/Untitled.png)
 
 가까운 과거를 통해 미래를 예측한다. “**멀티 레벨 피드백 큐**” 등장.
+## Multi-level Feedback Queue, MLFQ
+
+짧은 작업 먼저끝내고 반환시간 줄인다. (SJF, STCF) 
+
+스크린을 쳐다보며 기다리는 사용자를 위해 응답 시간을 최적화한다.
+
+MLFQ는 큐로 이루어지며 우선순위(priority level)을 따른다. 여러 단계의 큐를 피드백으로 우선순위를 정하게된다. 과거의 결과가 우선순위를 결정하게된다.
