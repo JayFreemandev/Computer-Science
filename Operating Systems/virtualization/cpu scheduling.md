@@ -111,4 +111,24 @@ CPU 몇 개 더 단다고 싱글 어플리케이션의 성능이 빨라지는것
 
 다중 CPU에 맞게 multi-queue multiprocessor scheduling, MQMS 방식이 나올 수 밖에없다. 작업 시작시 하나의 스케줄링 큐에 집어 넣고 모두 독립적으로 작업을 진행시켜서 동기화를 방지한다.
 
+하나를 해결하니 다른 하나의 문제점이 부각된다. **로드 불균형**(load imbalance)이다. 4개의 작업을 2개의 CPU에서 시작하고 그 중 하나 C가 종료되었다면 스케줄링은 이런 그림이다.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b0de3096-8094-40cb-aabd-abe048d6788c/Untitled.png)
+
+각 큐마다 라운드 로빈으로 스케줄러를 처리하면?
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/739e60ae-fe82-4600-8c6d-e912d23a34a7/Untitled.png)
+
+균일하게 처리되는것이 아니라 A가 B와D의 두배이상 차지하고있다. A와 C를 따라 종료해버린다면 B와 D만 남게되는데 
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bdfab4f-9114-4658-91c9-aafbe3cfee42/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9417539-9f94-4e2b-bf56-591473fcda9a/Untitled.png)
+
+위와 같은 로드 불균형이 발생한다. 이러한 불균형을 맞추기 위해서 여러 CPU를 오가면서 작업을 진행하여 균형을 맞추게된다. 큐를 검사해서 가득 차있다면 다른 CPU가 작업을 맡아서 일을 처리한다. 물론 큐를 자주 검사하게 되면 오버헤드가 일어남. 
+
+큐를 얼마나 검사해야되는지는 신도 모른다. 전에 설명한 얼만큼 얼마나가 절절한지는 부두술해서 값 찾는거 말고는 존재하지않는다. 모든 현대 os들의 숙제다.
+
+싱글 큐와 멀티 큐와 같이 멀티 프로세서에서 사용할수있는 스케줄링이 있었다. 싱글큐는 씸플하고 로드 불균형은 없지만 CPU 늘어나면 성능박살나버리고 멀티큐는 CPU늘어나도 좋지만 로드 불균형이 발생할수있고 구현도 복잡하다. CPU 스케줄러의 마이너한 수정은 시스템에 큰 영향을 줄수있어서 만능 국밥 스케줄러 구현은 힘들다.
+
 “어떤 스케줄러를 사용해야하는지는 현재까지 뜨거운 감자며 모든것은 권장사항이자 관점에 따라 다르다. 실용적이여야 한다 그러면 모든 문제가 쉽고 간단한 해결책을 가지지 않는다고 생각하기 때문이다.”
