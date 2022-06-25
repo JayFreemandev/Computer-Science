@@ -74,7 +74,7 @@ Context Switch는 저장한 레지스터를 꺼내오는 작업말고 CPU 캐시
 입출력이 더해지는 순간 프로세스는 가장 짧은 작업을 선택하며 왔다 갔다 오갈것이다.   
 이렇듯 서로 역설적인 상황이며 미래를 내다볼수없는 운영체제의 문제는 해결할수없었다.   
 
-![Untitled 4](https://user-images.githubusercontent.com/72185011/175782603-9ab51af5-913e-4966-8e82-df190e9004fd.png)
+![Untitled 4](https://user-images.githubusercontent.com/72185011/175782603-9ab51af5-913e-4966-8e82-df190e9004fd.png)  
 하지만 가까운 과거를 통해 미래를 예측한다. “**멀티 레벨 피드백 큐**” 자료구조가 등장한다.     
 <br>
 ## Multi-level Feedback Queue, MLFQ
