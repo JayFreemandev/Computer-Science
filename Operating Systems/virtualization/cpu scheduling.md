@@ -6,19 +6,19 @@ CPU 스케줄링설명에서 사용될 가정들은 매우 이상적이며 현�
 모든 작업은 동시에 도착하며 같은 시간 동안 실행된다.   
 각 작업은 끝날때까지 실행하며 입출력을 배제한 CPU만 사용한다.    
 
-First In First Out, FIFO  
+First In First Out, FIFO   
 ![Untitled](https://user-images.githubusercontent.com/72185011/175782665-6a2df5ac-e370-4345-b149-d46987307a5e.png)
 
 A,B,C 동시 도착에 A,B,C 순서대로 도착했고 10초동안 실행되었다.   
 평균 반환값은 A+B+C/3 인 = 20이다. 계산은 쉽다. 현실적인 가정으로 돌아가보자.   
-작업 실행 시간이 똑같지않다라고 하면 FIFO의 미래는?   
+작업 실행 시간이 똑같지않다라고 하면 FIFO의 미래는?     
 ![Untitled 1](https://user-images.githubusercontent.com/72185011/175782669-5dca27e2-bd2f-42d1-917f-9c9262aedcc4.png)
 
 보다싶이 A가 100초나 먹고 B, C 까지 다시 계산하면 평균 반환시간은 110초다. 이런 문제점을 Convoy effect라고 한다.    
 5인큐를 돌렸는데 1명이 로딩이 너무 느려서 1%남기고 99%까지 채운 나머지 4명이 고통을 받는다.   
 작업 실행 시간이 다르다는 현실적인 가정이면 무슨 알고리즘이 베스트인가?  
 
-Shortest Job First, SJF
+Shortest Job First, SJF   
 ![Untitled 2](https://user-images.githubusercontent.com/72185011/175782676-6e3c1702-dd1e-4945-b620-4aa1affc6292.png)
 
 젤 작업시간 많이 차지하는놈을 마지막에 처리하고 짧게 끝나는 작업들을 먼저 처리하는거다.     
