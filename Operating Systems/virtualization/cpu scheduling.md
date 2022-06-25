@@ -185,13 +185,13 @@ caches는 작으면서, 메인 메모리 시스템에서 자주 사용하는 데
 
 각 큐마다 라운드 로빈으로 스케줄러를 처리하면?   
 ![Untitled 10](https://user-images.githubusercontent.com/72185011/175782633-ef42cafb-ef93-4584-a693-dbf8902124df.png)
- 
 <br>
+
+
+![Untitled 11](https://user-images.githubusercontent.com/72185011/175782882-5e81b3a7-ab36-4d57-808c-8b1bbb814c14.png)
+![Untitled 12](https://user-images.githubusercontent.com/72185011/175782884-4021a3be-f16a-478b-bbb0-44c34a12242f.png)
+
 균일하게 처리되는것이 아니라 A가 B와D의 두배이상 차지하고있다. A와 C를 따라 종료해버린다면 B와 D만 남게되는데
-![Untitled 11](https://user-images.githubusercontent.com/72185011/175782626-4d055d8d-0f5d-4cf8-88a2-634cb698ea61.png)
-![Untitled 12](https://user-images.githubusercontent.com/72185011/175782629-971c6f66-c791-4a4f-b29e-7c8fdb9306eb.png)
-
-
 위와 같은 로드 불균형이 발생한다. 이러한 불균형을 맞추기 위해서 여러 CPU를 오가면서 작업을 진행하여 균형을 맞추게된다.
 큐를 검사해서 가득 차있다면 다른 CPU가 작업을 맡아서 일을 처리한다. 물론 큐를 자주 검사하게 되면 오버헤드가 일어남. 
 <br>
