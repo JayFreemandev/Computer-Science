@@ -42,8 +42,7 @@ JVM 메모리에도 PC가 존재함.
 스택 포인터와 프레임 포인터라는 레지스터도 있는데 함수의 변수와 리턴 주소를 저장할 스택을 관리할 때 사용하는 레지스터임.   
 
 ## 미스테리
-
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3%20a12d08b0ff22445db0338b4173f580ad/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/72185011/175783195-f7070e44-32f6-4cc3-87af-bc1674f83f77.png)
 
 프로세스가 뭔지 프로그램이 뭔지 간략하게 알았다.   
 그럼 프로그램이 어떻게 프로세스로 변형되는가? 내부적으로 뭐 어떻게 돌아가고 있는걸까?  
@@ -58,7 +57,8 @@ JVM 메모리에도 PC가 존재함.
 메모리 올렸으면 이제 스택과 힙을 만들어주면 프로그램 실행 준비는 끝나게된다.   
 운영체제는 CPU를 새로 생성된 프로세스에게 토스하고 프로그램 실행이 시작된다.   
 
-![Untitled](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3%20a12d08b0ff22445db0338b4173f580ad/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/72185011/175783198-e251774d-c83a-4bfb-8746-e6307d7b5b5a.png)
+
 
 프로세스에는 위와 같은 상태들이 존재하고 생성하고 삭제하고 대기하는 API들도 존재한다.    
 무슨 프로세스가 먼저 시작할지는 운영체제 스케줄링 알고리즘에 따라 결졍된다.   
@@ -73,7 +73,7 @@ JVM 메모리에도 PC가 존재함.
 여기에도 문제점이 있는데 CPU를 공유하기때문에 주는 성능저하다.     
 시스템에 오버헤드 없이 가상화를 구현할수있을까?    
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ecfcf29-0a4a-408a-8abd-7be364ecb425/Untitled.png)
+![Untitled 2](https://user-images.githubusercontent.com/72185011/175783200-2bf68ff0-6828-4bf3-be9f-741e959ed0da.png)
 
 두번째는 제어 문제다. 사나이 운영체제는 CPU와 프로세스를 엄격하게 기강을 잡아야된다.   
 제어권 뺏기면 운영체제에게 개기려고 하기 때문.  
@@ -123,7 +123,7 @@ OS 개발자들이 프로그램 빨리 실행하려고 프로그램을 CPU에서
 
 ### 비협조적인 악동 프로세스에게 컴퓨터를 뺏기지 않으려면?
 
-![time-to-stop-lol.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5da5c0f9-d366-4aa3-8784-6562b51cc45c/time-to-stop-lol.gif)
+![time-to-stop-lol](https://user-images.githubusercontent.com/72185011/175783205-12a7fce8-0eb9-4e58-8eb0-28cc202186e0.gif)
 
 해결책은 수십년전에 발명되었다. “**타이머 인터럽트**” 밀리초마다 타이머 장치는 인터럽트를 발생시킨다.   
 인터럽트가 발생하게되면 현재 실행중인 프로세스는 멈추고 마법카드인 **인터럽트 핸들러**가 발동한다.   
