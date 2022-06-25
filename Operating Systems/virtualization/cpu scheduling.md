@@ -8,16 +8,18 @@ CPU 스케줄링설명에서 사용될 가정들은 매우 이상적이며 현�
 
 First In First Out, FIFO   
 ![Untitled](https://user-images.githubusercontent.com/72185011/175782665-6a2df5ac-e370-4345-b149-d46987307a5e.png)
+<br>
 
 A,B,C 동시 도착에 A,B,C 순서대로 도착했고 10초동안 실행되었다.   
 평균 반환값은 A+B+C/3 인 = 20이다. 계산은 쉽다. 현실적인 가정으로 돌아가보자.   
 작업 실행 시간이 똑같지않다라고 하면 FIFO의 미래는?     
 ![Untitled 1](https://user-images.githubusercontent.com/72185011/175782669-5dca27e2-bd2f-42d1-917f-9c9262aedcc4.png)
+<br>
 
 보다싶이 A가 100초나 먹고 B, C 까지 다시 계산하면 평균 반환시간은 110초다. 이런 문제점을 Convoy effect라고 한다.    
 5인큐를 돌렸는데 1명이 로딩이 너무 느려서 1%남기고 99%까지 채운 나머지 4명이 고통을 받는다.   
 작업 실행 시간이 다르다는 현실적인 가정이면 무슨 알고리즘이 베스트인가?  
-
+<br>
 Shortest Job First, SJF   
 ![Untitled 2](https://user-images.githubusercontent.com/72185011/175782676-6e3c1702-dd1e-4945-b620-4aa1affc6292.png)
 
@@ -50,12 +52,12 @@ A,B,C 가 동시에 도착하는 경우 C는 한 번 작업하기위해 A와 B�
 
 ## Round-Robin, RR
 ![1901___2013927395](https://user-images.githubusercontent.com/72185011/175782682-8d9d0bbf-8935-4534-b86e-20ce0b394554.gif)
-
+<br>
 쎈시티브한 응답시간을 위해 라운드 로빈이라는 스케줄링 알고리즘이 등장한다.   
 사나이 라운드 로빈은 기다리지 않는다. 작업이 실행하는 시간을 “**타임 슬라이스**” 라고 한다.   
 타임 슬라이스별로 짤라버리는것이다. 일정 시간 실행 후 다음 작업으로 전환해버린다.   
 ![Untitled 3](https://user-images.githubusercontent.com/72185011/175782703-f75ca3c4-1baa-49ea-a7da-5d12a60667ad.png)
-
+<br>
 SFJ보면 A,B,C 5초씩 1초마다 타임슬라이스 해버리는 라운드로빈은 초단위로 작업을 빠르게 왔다 갔다하기 시작한다.   
 라운드 로빈의 평균 응답 시간은 0+1+2 / 3 = 1이고 SJF는 0+5+10/3 = 5이다.   
 
@@ -75,8 +77,8 @@ Context Switch는 저장한 레지스터를 꺼내오는 작업말고 CPU 캐시
 하지만
 
 ![Untitled 4](https://user-images.githubusercontent.com/72185011/175782603-9ab51af5-913e-4966-8e82-df190e9004fd.png)
-
-가까운 과거를 통해 미래를 예측한다. “**멀티 레벨 피드백 큐**” 등장.  
+가까운 과거를 통해 미래를 예측한다. “**멀티 레벨 피드백 큐**” 등장.   
+<br>
 ## Multi-level Feedback Queue, MLFQ
 
 짧은 작업 먼저끝내고 반환시간 줄인다. (SJF, STCF)  
@@ -118,7 +120,7 @@ CPU의 스케줄링 알고리즘으로는 이런게 있다라는것만 짚고 �
 ## 어떻게 CPU를 정해진 비율로 값을 공유할 수 있는가?
 
 ![Untitled 5](https://user-images.githubusercontent.com/72185011/175782610-5379444e-edd8-4607-b433-9f6c0d1d7d9a.png)
-
+<br>
 Proportional Share라고 하는 개념을 다룬다.   
 fair share 라는 공정 공유? 라고도 부르는데 fair share라고 하겠다.   
 반환 시간 응답시간 최적화 대신 스케줄러가 각 작업에게 공정하게 값을 주는것이 목적인 개념이다.  
@@ -128,7 +130,7 @@ A와 B두 프로세스가 있다고 치면 A는 75장 B는 25장의 스피드 �
 이 때 스케줄러는 몇 장의 복권을 샀는지 알아야한다.  
 
 ![Untitled 6](https://user-images.githubusercontent.com/72185011/175782614-06ca8657-b361-455f-ba2f-4e0cc96cbf70.png)
-
+<br>
 로또 스케줄링은 랜덤으로 결정하는데 운영체제를 보면 이렇게 랜덤으로 결정짓는것들이 있다   
 딱 정하지 않고 왜 랜덤 난수를 돌려서 선택할까? **세가지 장점** 때문에 랜덤 결정을 사용한다.  
 
@@ -180,15 +182,16 @@ caches는 작으면서, 메인 메모리 시스템에서 자주 사용하는 데
 4개의 작업을 2개의 CPU에서 시작하고 그 중 하나 C가 종료되었다면 스케줄링은 이런 그림이다.  
 
 ![Untitled 9](https://user-images.githubusercontent.com/72185011/175782637-16fd0398-b1fc-4c79-9e7f-ef6593f548a8.png)
-
+<br>
 각 큐마다 라운드 로빈으로 스케줄러를 처리하면?
 ![Untitled 10](https://user-images.githubusercontent.com/72185011/175782633-ef42cafb-ef93-4584-a693-dbf8902124df.png)
-
+<br>
 균일하게 처리되는것이 아니라 A가 B와D의 두배이상 차지하고있다.  
 A와 C를 따라 종료해버린다면 B와 D만 남게되는데   
+<br>
 ![Untitled 11](https://user-images.githubusercontent.com/72185011/175782626-4d055d8d-0f5d-4cf8-88a2-634cb698ea61.png)
 ![Untitled 12](https://user-images.githubusercontent.com/72185011/175782629-971c6f66-c791-4a4f-b29e-7c8fdb9306eb.png)
-
+<br>
 위와 같은 로드 불균형이 발생한다.   
 이러한 불균형을 맞추기 위해서 여러 CPU를 오가면서 작업을 진행하여 균형을 맞추게된다.   
 큐를 검사해서 가득 차있다면 다른 CPU가 작업을 맡아서 일을 처리한다.   
