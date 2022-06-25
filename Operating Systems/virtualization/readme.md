@@ -16,8 +16,8 @@ Illusion, 환상에서 먹고 싶은 사람들 손에는 복숭아가 쥐어져�
 프로그램은 자신만 사용하는 CPU를 가지게 되었다고 착각하지만 실제로 CPU는 하나다.   
 이것이 가상화의 핵심이다.    
 
-## [1. cpu의 가상화]
+## [1. cpu의 가상화](https://github.com/JayFreemandev/Computer-Science/blob/main/Operating%20Systems/virtualization/cpu%20virtualization.md)  
 
-## [2. cpu의 스케줄링]
+## [2. cpu의 스케줄링](https://github.com/JayFreemandev/Computer-Science/blob/main/Operating%20Systems/virtualization/cpu%20scheduling.md)  
 
-## [3. 메모리 가상화]
+## [3. 메모리 가상화](https://github.com/JayFreemandev/Computer-Science/blob/main/Operating%20Systems/virtualization/memoery%20virtualization.md)  
