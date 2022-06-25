@@ -182,7 +182,7 @@ caches는 작으면서, 메인 메모리 시스템에서 자주 사용하는 데
 
 ![Untitled 9](https://user-images.githubusercontent.com/72185011/175782637-16fd0398-b1fc-4c79-9e7f-ef6593f548a8.png)  
 <br>
-![Untitled 10](https://user-images.githubusercontent.com/72185011/175782633-ef42cafb-ef93-4584-a693-dbf8902124df.png)
+![Untitled 10](https://user-images.githubusercontent.com/72185011/175782633-ef42cafb-ef93-4584-a693-dbf8902124df.png)  
 각 큐마다 라운드 로빈으로 스케줄러를 처리하면?
 <br>
 ![Untitled 11](https://user-images.githubusercontent.com/72185011/175782882-5e81b3a7-ab36-4d57-808c-8b1bbb814c14.png)
