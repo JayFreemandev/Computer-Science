@@ -1,7 +1,7 @@
 # Operating System
 # Introduction
 
-OSTEP에서 강조하는 3요소에 대해 살펴보자.
+책을 직접 번역하며 중요한 챕터 내용들을 정리해보았습니다. OSTEP에서 강조하는 3요소에 대해 살펴보자. 
 
 ## 1. 가상화
 
