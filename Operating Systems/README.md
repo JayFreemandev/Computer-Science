@@ -95,5 +95,5 @@ OS가 CPU나 메모리같은 물리적 리소스들을 사용하는것도 알았
 
 ## [1. 가상화 ](https://github.com/JayFreemandev/Computer-Science/tree/main/Operating%20Systems/virtualization)
 ## [2. 병행 프로그램](https://github.com/JayFreemandev/Computer-Science/tree/main/Operating%20Systems/concurrency)
-## 3. .
+## 3. 영속성(파일I/O)
 ## [4. 스크립트 복습](https://github.com/JayFreemandev/Computer-Science/tree/main/Operating%20Systems/script)
