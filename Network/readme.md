@@ -3,9 +3,9 @@
 <div style="display:flex">
 <table>
   <tr>
-    <td><img alt="" src="https://user-images.githubusercontent.com/74912530/166097029-cc826840-395d-4c64-836a-744fbefb71d5.png" width="300px"/></td>
-    <td><img alt="" src="https://user-images.githubusercontent.com/74912530/166097037-7d8b8a70-8f5b-47e1-b0be-88d4ca4d40ab.png" width="300px"/></td>
-    <td><img alt="" src="https://user-images.githubusercontent.com/74912530/166097036-4de7a598-ecf0-4ce3-8cb2-a718c0caaf41.png" width="300px"/></td>
+    <td><img alt="" src="https://user-images.githubusercontent.com/72185011/184539792-f0f868c1-3dfc-454c-9fbc-28e563796be7.png" width="300px"/></td>
+    <td><img alt="" src="https://user-images.githubusercontent.com/72185011/184539698-89c0fcbe-da2a-4213-894f-63988798e2d5.png" width="300px"/></td>
+    <td><img alt="" src="https://user-images.githubusercontent.com/72185011/184539724-2e3dd5ef-c783-472c-8de0-84c3c66f428a.png" width="300px"/></td>
   <tr>
 </table>
 </div>
