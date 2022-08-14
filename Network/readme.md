@@ -44,56 +44,6 @@ Hello
             </td>
         </tr>
         <tr>
-            <td> Week 04 </td>
-            <td> 05. 16(월) </td>
-            <td> 병행성의 원리, 세마포어 </td>
-            <td>
-                <a href="https://github.com/Newlink-Study/operating-system/blob/main/%EC%9E%AC%EC%9C%A4/4%EC%A3%BC%EC%B0%A8.md"> 재윤(발표자)</a><br/>
-                <a href="https://github.com/Newlink-Study/operating-system/blob/main/%EB%8F%99%EC%9D%80/%5B4%EC%A3%BC%EC%B0%A8%5D%20%EC%83%81%ED%98%B8%EB%B0%B0%EC%A0%9C%EC%99%80%20%EB%8F%99%EA%B8%B0%ED%99%94.md"> 동은</a><br/>
-            </td>
-        </tr>
-        <tr>
-            <td> Week 05 </td>
-            <td> 05. 23(월) </td>
-            <td> 중간 Script </td>
-            <td>
-                <a href="https://github.com/Newlink-Study/operating-system/blob/main/%EC%9E%AC%EC%9C%A4/4%EC%A3%BC%EC%B0%A8.md](https://github.com/Newlink-Study/operating-system/blob/main/%EC%9E%AC%EC%9C%A4/5%EC%A3%BC%EC%B0%A8.md"> 재윤(발표자)</a><br/>  
-            </td>
-        </tr>
-          <tr>
-            <td> Week 06 </td>
-            <td> 05. 30(월) </td>
-            <td> 교착상태 회피까지 </td>
-            <td>
-                준영(회피)   
-                윤호(회피)  
-                철훈(발표자)
-            </td>
-        </tr>
-        <tr>
-            <td> Week 07 </td>
-            <td> 06. 06(월) </td>
-            <td> 교착상태 복구/페이징/세그멘테이션 </td>
-            <td>
-                준영(발표자)
-            </td>
-        </tr>
-        <tr>
-            <td> Week 08 </td>
-            <td> 06. 13(월) </td>
-            <td> Script 1차 </td>
-            <td>
-                -
-            </td>
-        </tr>
-        <tr>
-            <td> Week 09 </td>
-            <td> 06. 20(월) </td>
-            <td> Script 2차 </td>
-            <td>
-                -
-            </td>
-        </tr>
     </tbody>
 </table>
 
