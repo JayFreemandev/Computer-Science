@@ -18,10 +18,6 @@ Hello
             <td> OS개요와 역사 </td>
             <td>
                 <a href="https://github.com/Newlink-Study/operating-system/blob/jaeyun/week1/README.md"> 재윤(발표자)</a><br/>
-                <a href="https://www.google.com/"> 윤호</a><br/>
-                <a href="https://www.google.com/"> 준영</a><br/>
-                <a href="https://www.google.com/"> 철훈</a><br/>
-                <a href="https://github.com/Newlink-Study/operating-system/blob/main/%EB%8F%99%EC%9D%80/%5B1%EC%A3%BC%EC%B0%A8%5D%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%99%80%20%EC%BB%B4%ED%93%A8%ED%84%B0%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B0%9C%EC%9A%94.md"> 동은</a><br/>
             </td>
         </tr>
         <tr>
@@ -30,8 +26,6 @@ Hello
             <td> 프로세스와 스레드</td>
             <td> 
               <a href="https://github.com/Newlink-Study/operating-system/blob/main/%EC%9E%AC%EC%9C%A4/2%EC%A3%BC%EC%B0%A8.md"> 재윤</a><br/>
-              <a href="https://github.com/Newlink-Study/operating-system/blob/9998ebe2d66abd8af55f563551bea2cbadd2c9fe/%EB%8F%99%EC%9D%80/%5B2%EC%A3%BC%EC%B0%A8%5D%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md"> 동은(발표자)</a><br/>
-              <a href="https://www.google.com"> 윤호(발표자)</a><br/>
             </td>
         </tr>
         <tr>
@@ -40,7 +34,6 @@ Hello
             <td> 스케쥴링과 스케쥴링 알고리즘</td>
             <td>
               <a href="https://github.com/Newlink-Study/operating-system/blob/main/%EC%9E%AC%EC%9C%A4/3%EC%A3%BC%EC%B0%A8.md"> 재윤</a><br/>
-              <a href="https://github.com/Newlink-Study/operating-system/blob/main/%EB%8F%99%EC%9D%80/%5B3%EC%A3%BC%EC%B0%A8%5D%20-2.%20%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%EA%B3%BC%20%EA%B8%B0%ED%95%9C%EB%B6%80%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md"> 동은</a><br/>
             </td>
         </tr>
         <tr>
