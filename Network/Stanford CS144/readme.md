@@ -16,4 +16,20 @@
 <br>
 
 3. Lecture 11~16
+- Address Resolution Protocol ARP 
+- The Internet and IP Recap 
+- Transport (intro) 
+- TCP Service Model 
+- UDP Service Model 
+- ICMP Service Model 
+<br>
+
 4. Lecture 17~24
+- End to End Principle 
+- Error detection 
+- Finite state machines 
+- Flow Control: Stop and wait 
+- Flow Control: Sliding Window
+- Retransmission Strategies
+- TCP Header
+- Connection setup and teardown
