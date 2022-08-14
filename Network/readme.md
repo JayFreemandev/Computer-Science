@@ -39,8 +39,6 @@
             <td> 03 </td>
             <td> HTTP 완벽 가이드</td>
             <td>
-              https://github.com/sujin-park/deep-dive-http  
-              https://github.com/goood-better-best/HttpPerfectGuide  
               <a href="https://github.com/Newlink-Study/operating-system/blob/main/%EC%9E%AC%EC%9C%A4/3%EC%A3%BC%EC%B0%A8.md"> HTTP 완벽 가이드  </a><br/>
             </td>
         </tr>
@@ -48,7 +46,6 @@
             <td> 04 </td>
             <td> Script </td>
             <td>
-               https://github.com/Stacked-Book/network/tree/main/%EC%84%B1%EA%B3%B5%EA%B3%BC%20%EC%8B%A4%ED%8C%A8%EB%A5%BC%20%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94%201%25%EC%9D%98%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9B%90%EB%A6%AC
               <a href="https://github.com/Newlink-Study/operating-system/blob/main/%EC%9E%AC%EC%9C%A4/3%EC%A3%BC%EC%B0%A8.md"> Self test </a><br/>
             </td>
         </tr>
@@ -57,3 +54,9 @@
 </table>
 
 <br/>
+Deepdive
+-               https://github.com/sujin-park/deep-dive-http  
+-            https://github.com/goood-better-best/HttpPerfectGuide  
+
+HTPP
+-                https://github.com/Stacked-Book/network/tree/main/%EC%84%B1%EA%B3%B5%EA%B3%BC%20%EC%8B%A4%ED%8C%A8%EB%A5%BC%20%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94%201%25%EC%9D%98%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9B%90%EB%A6%AC
