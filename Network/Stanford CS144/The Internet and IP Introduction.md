@@ -1,8 +1,6 @@
 # The Internet and IP Introduction
 
-## Network Applications
-
-## Byte Stream Model
+## Network Applications & Byte Stream Model
 
 ## World Wide Web(HTTP)
 
