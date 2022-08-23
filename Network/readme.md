@@ -81,4 +81,9 @@ https://www.youtube.com/watch?v=WGJrLqtX7As
 
 SSL and HTTPS, MIT 6.858 Computer Systems Security, Fall 2014  
 https://www.youtube.com/watch?v=S2iBR2ZlZf0 
+ 
+SSL/TLS - Cristina Formaini  
+https://www.youtube.com/watch?v=Rp3iZUvXWlM  
 
+Making HTTP realtime with HTTP 2.0 - Realtime Conf 2013  
+https://www.youtube.com/watch?v=E9FxNzv1Tr8  
