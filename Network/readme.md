@@ -70,3 +70,5 @@ https://www.khanacademy.org/computing/code-org/computers-and-the-internet
 UDP and TCP: Comparison of Transport Protocols (video)  
 https://www.youtube.com/watch?v=Vdc8TCESIg8  
 
+TCP/IP and the OSI Model Explained!  
+https://www.youtube.com/watch?v=e5DEVa9eSN0  
