@@ -72,3 +72,6 @@ https://www.youtube.com/watch?v=Vdc8TCESIg8
 
 TCP/IP and the OSI Model Explained!  
 https://www.youtube.com/watch?v=e5DEVa9eSN0  
+
+Packet Transmission across the Internet. Networking & TCP/IP tutorial. TCP/IP Explained  
+https://www.youtube.com/watch?v=nomyRJehhnM  
