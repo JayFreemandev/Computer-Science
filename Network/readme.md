@@ -79,3 +79,6 @@ https://www.youtube.com/watch?v=nomyRJehhnM
 http  
 https://www.youtube.com/watch?v=WGJrLqtX7As  
 
+SSL and HTTPS, MIT 6.858 Computer Systems Security, Fall 2014  
+https://www.youtube.com/watch?v=S2iBR2ZlZf0 
+
