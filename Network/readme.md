@@ -3,8 +3,6 @@
 <div style="display:flex">
 <table>
   <tr>
-    <td><img alt="" src="https://user-images.githubusercontent.com/72185011/184539792-f0f868c1-3dfc-454c-9fbc-28e563796be7.png" width="300px"/></td>
-    <td><img alt="" src="https://user-images.githubusercontent.com/72185011/184539698-89c0fcbe-da2a-4213-894f-63988798e2d5.png" width="300px"/></td>
     <td><img alt="" src="https://user-images.githubusercontent.com/72185011/184539724-2e3dd5ef-c783-472c-8de0-84c3c66f428a.png" width="300px"/></td>
   <tr>
 </table>
@@ -22,20 +20,6 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td> 01 </td>
-            <td> 스탠포드 CS144, 네트워크 </td>
-            <td>
-                <a href="https://github.com/Newlink-Study/operating-system/blob/jaeyun/week1/README.md"> Note Taking </a><br/>
-            </td>
-        </tr>
-        <tr>
-            <td> 02 </td>
-            <td> 성공과 실패를 결정하는 1%의 네트워크원리 </td>
-            <td> 
-              <a href="https://github.com/Newlink-Study/operating-system/blob/main/%EC%9E%AC%EC%9C%A4/2%EC%A3%BC%EC%B0%A8.md"> 네트워크원리 </a><br/>
-            </td>
-        </tr>
         <tr>
             <td> 03 </td>
             <td> HTTP 완벽 가이드</td>
