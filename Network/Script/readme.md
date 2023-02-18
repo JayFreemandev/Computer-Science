@@ -40,6 +40,8 @@ DHCP란 무엇이고 어떻게 동작되나요?
 흐름제어(Flow Control)와 혼잡제어(Congestion Control)란 무엇인가요?
 
 3 - way handshake 이란?
+
+3 Way Handshake는 왜 3번 요청을 주고 받는 것인가요?
  
 브라우저에서 주소창에 url 입력시 어떤일이 일어나는가?  
 
@@ -148,3 +150,39 @@ same-origin 정책에 대해 설명해주세요.
 Preflight Request에 대해 설명해주세요.
 
 OAuth에 대해서 간단히 설명해주세요.
+
+TCP Flow Control은 무엇을 해결하기 위한 기능의 집합인가요?
+
+Sliding Window 라는 개념에 대해서 알고 계시나요?
+
+TCP Congestion Control은 무엇을 해결하기 위한 기능의 집합인가요?
+
+Buffer와 Stream 방식은 각각 무엇인가요? 실시간으로 처리할 필요가 없는 대량의 데이터에 대해서 어떤 방식을 사용하는 것이 효율적일까요?
+
+HTTP 멱등성에 대해 설명해주세요.
+
+Time wait Socket은 무엇일까요?
+
+Keep Alive는 무엇일까요?
+
+SYN Flooding 공격에 대해서 아시나요?
+
+Polling, Long Polling, Pulling 기법은 각각 무엇이고 어떠한 Trade Off를 가지고 있나요?
+
+Server Sent Events와 Web Socket 기법은 무엇이고 어떠한 장, 단점을 가지고 있나요?
+
+User라는 리소스가 하위로 item이라는 리소스를 가지고 있습니다. 이를 조회해야할 때 RESTful하게 URL을 설계한다면 어떤 형태의 URL에 GET을 요청하게 되나요?
+
+통신시 사용되는 대표적인 Format으로는 무엇이 있나요?
+
+JSON은 무엇인가요?
+
+Local, Global, Distributed Session에 대해서 아는 만큼 설명해주세요.
+
+Servlet Spec은 무엇이고 CGI와 어떠한 차이점을 가지고 있나요?
+
+WAS는 무엇인가요?
+
+gRPC에 대해서 아시나요?
+
+(HTTP API(RESTful)와 비교했을 때)gRPC API는 어떤 이점을 제공하나요?
