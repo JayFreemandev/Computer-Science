@@ -68,3 +68,4 @@ NoSQL에서 지원하는 Transcation의 BASE에 대해서 아시나요?
 CAP이론에 대해 아시나요?  
 Key-Value, Document, Column, Graph 저장 방식의 장단점  
 
+https://www.notion.so/1c1c7be376d24aaf80a91a716e916026?pvs=4#dba29de5b3c64f66951c65bbdc9d1b11
